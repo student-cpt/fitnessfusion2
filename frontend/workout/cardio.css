@@ -1,0 +1,21 @@
+body {
+  background-image: url("https://reliv-static.s3.amazonaws.com/art/WebStuff/Fit3Site/BlogFit3/2017/StrengthTraining-web.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap if needed */
+  gap: 88px;
+  margin-right: 50px;
+}
+
+#moving-text {
+  animation: movetext 5s infinite alternate;
+}
+
+@keyframes movetext {
+  from { transform: translateX(0px); }
+  to { transform: translateX(100px); }
+}

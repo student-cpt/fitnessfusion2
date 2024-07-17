@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url("https://images.creativemarket.com/0.1.0/ps/4378/1160/772/m1/fpnw/wm1/strength-training-workout-preview-.jpg?1355882997&s=b136a18de63a73fc27de483941f4219f");
+  background-size: 1500px;
+  background-repeat: no-repeat;
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.control {
+  margin: 0 5px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.control:hover {
+  background-color: #f0f0f0;
+}
